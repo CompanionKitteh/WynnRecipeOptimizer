@@ -32,3 +32,5 @@ known issues:
 - need to add durability, duration, charges calculations based on materials
 - maybe optimize code (multithread?)
 - pickle the ingredients so they dont have to be loaded every time
+
+feel free to contact me on discord at `CompanionKitteh#2053` if youre having any problems running the code
