@@ -1,7 +1,7 @@
 # WynnRecipeOptimizer
 wynncraft crafting recipe optimizer
 
-a bit of code i wrote to optimize crafting recipes i only really planned to use this for personal use but since people wanted the code its provided here in this repository
+a bit of code i wrote to optimize crafting recipes, i only really planned to use this for personal use but since people wanted the code its provided here in this repository
 
 the code requires an `Ingredients_m.json` file for the ingredient information, i modified mine slightly since there were some odd characters in the original
 it also requires `numpy` and `tqdm`
