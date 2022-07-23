@@ -5,7 +5,7 @@ a bit of code i wrote to optimize crafting recipes
 i only really planned to use this for personal use but since people wanted the code its provided here in this repository
 
 the code requires an `Ingredients_m.json` file for the ingredient information, i modified mine slightly since there were some odd characters in the original
-it also requires `numpy` and `tqdm
+it also requires `numpy` and `tqdm`
 
 to calculate a recipe you need to change line 314 to the skill and identification you want
 you can then run the code through console by using `python crafty.py` or however else you choose
