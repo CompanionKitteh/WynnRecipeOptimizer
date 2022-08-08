@@ -3,10 +3,11 @@ wynncraft crafting recipe optimizer
 
 a bit of code i wrote to optimize crafting recipes, i only really planned to use this for personal use but since people wanted the code its provided here in this repository
 
-the code requires an `Ingredients_m.json` file for the ingredient information, i modified mine slightly since there were some odd characters in the original
-it also requires `numpy` and `tqdm`
+the code requires an `Ingredients_m.json` file for the ingredient information, i modified mine slightly since there were some odd characters in the original, it also requires `numpy` and `tqdm`
 
 to calculate a recipe you need to change line 314 to the skill and identification you want, you can then run the code through console by using `python crafty.py` or however else you choose
+
+note that the code doesnt assume any materials used, but youll have to calculate initial durability and stuff if you want to use durabilityModifier, duration, and charges
 
 stuff you can change:
 | line number | name | description |
@@ -32,5 +33,6 @@ known issues:
 - need to add durability, duration, charges calculations based on materials
 - maybe optimize code (multithread?)
 - pickle the ingredients so they dont have to be loaded every time
+- add a filter to ingredients (level, price?)
 
 feel free to contact me on discord at `CompanionKitteh#2053` if youre having any problems running the code
