@@ -34,5 +34,6 @@ known issues:
 - maybe optimize code (multithread?)
 - pickle the ingredients so they dont have to be loaded every time
 - add a filter to ingredients (level, price?)
+- search for more than one identification at a time (max lb and lq, regen and regen%, etc)
 
 feel free to contact me on discord at `CompanionKitteh#2053` if youre having any problems running the code
